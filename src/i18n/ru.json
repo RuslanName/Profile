@@ -1,0 +1,57 @@
+{
+  "title": "Fullstack Web-разработчик",
+  "name": "Кузьмин Руслан, 20 лет",
+  "about": "Обо мне",
+  "aboutShort": "Обо мне",
+  "aboutText": "Я Fullstack Web-разработчик, специализирующийся на разработке высокопроизводительных и многофункциональных сайтов, Web-приложений, ботов, Telegram Mini Apps и других решений. Готов брать на себя самые амбициозные вызовы, создавая инновационные и креативные решения с использованием передового стека технологий!",
+  "skills": "Навыки",
+  "skillsShort": "Навыки",
+  "skillsList": [
+    "REST / GraphQL API",
+    "WebSockets / Работа в реальном времени",
+    "Блокчейн / Смарт-контракты",
+    "LLM / Нейросети",
+    "Docker / Контейнеризация",
+    "Аутентификация / OAuth / JWT",
+    "Базы данных (SQL / NoSQL)",
+    "Кэширование / Оптимизация производительности",
+    "Инструменты CSS (SCSS, Sass, Tailwind)",
+    "Управление состоянием: Redux / Zustand",
+    "Сборщики: Webpack, Vite, ESBuild",
+    "SSR / SSG / SPA (Next.js, React)",
+    "Микросервисная архитектура"
+  ],
+  "projects": "Проекты",
+  "projectsShort": "Проекты",
+  "projectsList": [
+    {
+      "title": "Бот для обмена криптовалют",
+      "description": "Разработал бота для покупки и продажи Bitcoin и Litecoin с использованием Express.js, с удобной системой создания заявок и реферальной системой.",
+      "url": "https://github.com/RuslanName/BitCheckBot"
+    },
+    {
+      "title": "Mini App магазин",
+      "description": "Разработал Mini App для покупки товаров с использованием Spring Boot и JavaScript, c подключенной платёжной системой и выбором пунктов выдачи.",
+      "url": "https://github.com/RuslanName/MiniAppStore"
+    },
+    {
+      "title": "P2P бот",
+      "description": "Разработал бота для P2P обменов пользователей с ордеродержателями с использование Express.js и React, с кошельками платформы, добавлением и контролем ордеродержателей, реферальной программой и AML-проверкой.",
+      "url": "https://github.com/RuslanName/P2PBot"
+    },
+    {
+      "title": "Сайт музыкального сервиса",
+      "description": "Разработал сайт для прослушивания музыки с использованием Nest.js и Next.js, с добавлением треков и созданием собственных альбомов.",
+      "url": "https://github.com/RuslanName/MusicApp"
+    },
+    {
+      "title": "Квиз бот",
+      "description": "Разработал бота для проведения квизов с использованием Spring Boot, с таблицей лидеров и объявлением победителей по окончанию..",
+      "url": "https://github.com/RuslanName/QuizBot"
+    }
+  ],
+  "technologies": "Технологии",
+  "technologiesShort": "Стек",
+  "contact": "Контакты",
+  "contactShort": "Контакты"
+}

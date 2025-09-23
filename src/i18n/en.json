@@ -1,0 +1,57 @@
+{
+  "title": "Fullstack Web Developer",
+  "name": "Kuzmin Ruslan, 20 years old",
+  "about": "About Me",
+  "aboutShort": "About",
+  "aboutText": "I'm a Fullstack Web Developer specializing in building high-performance and feature-rich websites, web applications, Telegram bots, Telegram Mini Apps, and more. I'm ready to tackle the most ambitious challenges, bringing innovative and creative ideas to life using a cutting-edge tech stack!",
+  "skills": "Skills",
+  "skillsShort": "Skills",
+  "skillsList": [
+    "REST / GraphQL API",
+    "WebSockets / Real-time",
+    "Blockchain / Smart-Contracts",
+    "LLM / Neural Networks",
+    "Docker / Containerization",
+    "Authentication / OAuth / JWT",
+    "Databases (SQL / NoSQL)",
+    "Caching / Performance Optimization",
+    "CSS Tools (SCSS, Sass, Tailwind)",
+    "State Management: Redux / Zustand",
+    "Build Tools: Webpack, Vite, ESBuild",
+    "SSR / SSG / SPA (Next.js, React)",
+    "Microservices Architecture"
+  ],
+  "projects": "Projects",
+  "projectsShort": "Projects",
+  "projectsList": [
+    {
+      "title": "Cryptocurrency Exchange Bot",
+      "description": "Developed a bot for buying and selling Bitcoin and Litecoin using Express.js, featuring a user-friendly order creation system and a referral program.",
+      "url": "https://github.com/RuslanName/BitCheckBot"
+    },
+    {
+      "title": "Mini App Store",
+      "description": "Developed a Mini App for purchasing goods using Spring Boot and JavaScript, with an integrated payment system and selection of pickup points.",
+      "url": "https://github.com/RuslanName/MiniAppStore"
+    },
+    {
+      "title": "P2P Bot",
+      "description": "Developed a bot for P2P exchanges between users and order holders using Express.js and React, including platform wallets, order holder management, a referral program, and AML verification.",
+      "url": "https://github.com/RuslanName/P2PBot"
+    },
+    {
+      "title": "Music Service Website",
+      "description": "Developed a website for music streaming using Nest.js and Next.js, with features for adding tracks and creating custom albums.",
+      "url": "https://github.com/RuslanName/MusicApp"
+    },
+    {
+      "title": "Quiz Bot",
+      "description": "Developed a bot for conducting quizzes using Spring Boot, featuring a leaderboard and winner announcements upon completion.",
+      "url": "https://github.com/RuslanName/QuizBot"
+    }
+  ],
+  "technologies": "Technologies",
+  "technologiesShort": "Tech",
+  "contact": "Contact",
+  "contactShort": "Contact"
+}
