@@ -2,10 +2,8 @@
   "title": "Fullstack Web Developer",
   "name": "Kuzmin Ruslan, 20 years old",
   "about": "About Me",
-  "aboutShort": "About",
   "aboutText": "I'm a Fullstack Web Developer specializing in building high-performance and feature-rich websites, web applications, Telegram bots, Telegram Mini Apps, and more. I'm ready to tackle the most ambitious challenges, bringing innovative and creative ideas to life using a cutting-edge tech stack!",
   "skills": "Skills",
-  "skillsShort": "Skills",
   "skillsList": [
     "REST / GraphQL API",
     "WebSockets / Real-time",
@@ -22,7 +20,6 @@
     "Microservices Architecture"
   ],
   "projects": "Projects",
-  "projectsShort": "Projects",
   "projectsList": [
     {
       "title": "Cryptocurrency Exchange Bot",
@@ -51,7 +48,5 @@
     }
   ],
   "technologies": "Technologies",
-  "technologiesShort": "Tech",
-  "contact": "Contact",
-  "contactShort": "Contact"
+  "contact": "Contact"
 }
