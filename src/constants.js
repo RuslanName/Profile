@@ -1,70 +1,92 @@
 import gitIcon from './assets/icons/git.png';
-import jsIcon from './assets/icons/js.png';
-import tsIcon from './assets/icons/ts.png';
-import javaIcon from './assets/icons/java.png';
-import htmlIcon from './assets/icons/html.png';
-import cssIcon from './assets/icons/css.png';
+import tsIcon from './assets/icons/typescript.png';
+import goIcon from './assets/icons/go.png';
 import nodeIcon from './assets/icons/node.png';
-import springIcon from './assets/icons/spring.png';
 import nestIcon from './assets/icons/nest.png';
-import reactIcon from './assets/icons/react.png';
-import nextIcon from './assets/icons/next.png';
-import scssIconDark from './assets/icons/scss.png';
-import tailwindIcon from './assets/icons/tailwind.png';
-import webpackIcon from './assets/icons/webpack.png';
-import viteIcon from './assets/icons/vite.png';
+import bunIcon from './assets/icons/bun.png';
+import npmIcon from './assets/icons/npm.png';
+import fastifyIcon from './assets/icons/fastify.png';
+import ginIcon from './assets/icons/gin.png';
+import prismaIcon from './assets/icons/prisma.png';
 import kafkaIcon from './assets/icons/kafka.png';
 import rabbitIcon from './assets/icons/rabbitmq.png';
-import postgresIcon from './assets/icons/postgres.png';
+import postgresIcon from './assets/icons/postgresql.png';
+import clickhouseIcon from './assets/icons/clickhouse.png';
 import mongodbIcon from './assets/icons/mongodb.png';
 import redisIcon from './assets/icons/redis.png';
 import elasticsearch from './assets/icons/elasticsearch.png';
 import dockerIcon from './assets/icons/docker.png';
-import composeIcon from './assets/icons/compose.png';
-import figmaIcon from './assets/icons/figma.png';
+import composeIcon from './assets/icons/docker-compose.png';
+import kubernetesIcon from './assets/icons/kubernetes.png';
+import ciCdIcon from './assets/icons/ci-cd.png';
+import githubActionsIcon from './assets/icons/github-actions.png';
+import grafanaIcon from './assets/icons/grafana.png';
+import prometheusIcon from './assets/icons/prometheus.png';
+import lokiIcon from './assets/icons/loki.png';
+import jaegerIcon from './assets/icons/jaeger.png';
+import opentelemetryIcon from './assets/icons/opentelemetry.png';
+import swaggerIcon from './assets/icons/swagger.png';
 
 import kafkaIconDark from './assets/icons/kafka-dark.png';
-import nextIconDark from './assets/icons/next-dark.png';
+import fastifyIconDark from './assets/icons/fastify-dark.png';
+import prismaIconDark from './assets/icons/prisma-dark.png';
 import githubIconDark from './assets/icons/github-dark.png';
-import upworkIconDark from './assets/icons/upwork-dark.png';
 
 import telegramIcon from './assets/icons/telegram.png';
 import githubIcon from './assets/icons/github.png';
-import fiverrIcon from './assets/icons/fiverr.png';
-import upworkIcon from './assets/icons/upwork.png';
-import kworkIcon from './assets/icons/kwork.png';
 
-export const techIcons = [
-    { src: gitIcon, alt: 'Git' },
-    { src: jsIcon, alt: 'JavaScript' },
+const techIcons = [
+    // Languages, runtimes and package management.
     { src: tsIcon, alt: 'TypeScript' },
-    { src: javaIcon, alt: 'Java' },
-    { src: htmlIcon, alt: 'HTML' },
-    { src: cssIcon, alt: 'CSS' },
+    { src: goIcon, alt: 'Go' },
     { src: nodeIcon, alt: 'Node.js' },
-    { src: springIcon, alt: 'Spring' },
+    { src: bunIcon, alt: 'Bun' },
+    { src: npmIcon, alt: 'npm' },
+
+    // Backend frameworks and API tooling.
     { src: nestIcon, alt: 'Nest.js' },
-    { src: reactIcon, alt: 'React' },
-    { src: nextIcon, darkSrc: nextIconDark, alt: 'Next.js' },
-    { src: scssIconDark, alt: 'SCSS' },
-    { src: tailwindIcon, alt: 'Tailwind CSS' },
-    { src: webpackIcon, alt: 'Webpack' },
-    { src: viteIcon, alt: 'Vite' },
-    { src: kafkaIcon, darkSrc: kafkaIconDark, alt: 'Kafka' },
-    { src: rabbitIcon, alt: 'RabbitMQ' },
+    { src: fastifyIcon, darkSrc: fastifyIconDark, alt: 'Fastify' },
+    { src: ginIcon, alt: 'Gin' },
+    { src: swaggerIcon, alt: 'Swagger' },
+
+    // ORM, databases, caching and search.
+    { src: prismaIcon, darkSrc: prismaIconDark, alt: 'Prisma' },
     { src: postgresIcon, alt: 'PostgreSQL' },
     { src: mongodbIcon, alt: 'MongoDB' },
+    { src: clickhouseIcon, alt: 'ClickHouse' },
     { src: redisIcon, alt: 'Redis' },
     { src: elasticsearch, alt: 'Elasticsearch' },
+
+    // Message brokers.
+    { src: kafkaIcon, darkSrc: kafkaIconDark, alt: 'Kafka' },
+    { src: rabbitIcon, alt: 'RabbitMQ' },
+
+    // Containers and orchestration.
     { src: dockerIcon, alt: 'Docker' },
-    { src: composeIcon, alt: 'Docker сompose' },
-    { src: figmaIcon, alt: 'Figma' }
+    { src: composeIcon, alt: 'Docker Compose' },
+    { src: kubernetesIcon, alt: 'Kubernetes' },
+
+    // Version control and delivery automation.
+    { src: gitIcon, alt: 'Git' },
+    { src: ciCdIcon, alt: 'CI/CD' },
+    { src: githubActionsIcon, alt: 'GitHub Actions' },
+
+    // Telemetry, metrics, logs, traces and visualization.
+    { src: opentelemetryIcon, alt: 'OpenTelemetry' },
+    { src: prometheusIcon, alt: 'Prometheus' },
+    { src: lokiIcon, alt: 'Loki' },
+    { src: jaegerIcon, alt: 'Jaeger' },
+    { src: grafanaIcon, alt: 'Grafana' }
 ];
 
 export const contactIcons = [
     { src: telegramIcon, alt: 'Telegram', href: 'https://t.me/MrHumansuit' },
-    { src: githubIcon, darkSrc: githubIconDark, alt: 'Github', href: 'https://github.com/RuslanName' },
-    { src: fiverrIcon, alt: 'Fiverr', href: 'https://www.fiverr.com/ruslankuzmin' },
-    { src: upworkIcon, darkSrc: upworkIconDark, alt: 'Upwork', href: 'https://www.upwork.com/freelancers/~01a5b24e89f9b20644' },
-    { src: kworkIcon, alt: 'Kwork', href: 'https://kwork.ru/user/ruslankuzmin' }
+    { src: githubIcon, darkSrc: githubIconDark, alt: 'GitHub', href: 'https://github.com/RuslanName' }
+];
+
+export const techGroups = [
+    { id: 'backend', icons: techIcons.slice(0, 9) },
+    { id: 'data', icons: techIcons.slice(9, 17) },
+    { id: 'infrastructure', icons: techIcons.slice(17, 23) },
+    { id: 'observability', icons: techIcons.slice(23) }
 ];
